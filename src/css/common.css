@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+.timer {
+  display: flex;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.value {
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0 auto;
+  padding: 20px;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  color: blue;
+}
+.label {
+  font-size: 36px;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  align-items: center;
+  color: red;
+}
