@@ -8,7 +8,6 @@ const refs = {
 refs.formRef.addEventListener('submit', onHanddleSubmit);
 
 function onHanddleSubmit(event) {
-  console.log(1);
   event.preventDefault();
   const {
     elements: { delay, step, amount },
